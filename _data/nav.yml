@@ -4,13 +4,6 @@ items:
   icon_class: fa fa-home fa-lg
 
 - url: /schedule/
-  name: Schedule
+  name: 课程安排与资源
   icon_class: fas fa-calendar-alt
 
-- url: /lectures/
-  name: Lectures
-  icon_class: fas fa-book-reader
-
-- url: /materials/
-  name: Materials
-  icon_class: fas fa-book
