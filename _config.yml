@@ -1,0 +1,52 @@
+# Site settings
+course_name: "大模型研讨课"
+course_description: "大模型正在重塑计算机科学的研究范式。2024年度诺贝尔物理学奖和化学奖均授予了大模型相关方向的人工智能科学家。本课程邀请活跃在一线的优秀青年科研人员，从系统的角度，介绍大模型的结构、预训练、后训练、微调、推理、系统软件等基础知识，以及前沿进展。"
+course_semester: "2024"
+
+baseurl: "/llm-course-page-v2" # the subpath of your site, e.g. /blog/
+url: "http://luban-paper.github.io/" # the base hostname & protocol for your site
+
+schoolname: "处理器全国重点实验室"
+schoolurl: "https://sklp.ict.ac.cn"
+# twitter_username: username 
+
+address: |
+    中国科学院计算技术研究所
+    处理器全国重点实验室
+    北京市海淀区中关村科学院南路6号
+
+# Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
+# google_analytics: UA-XXXXXXXX-X
+
+### Do not change the followings unless you know what you are doing ###
+
+# Build settings
+markdown: kramdown
+
+# Other options
+permalink: blog/:year/:month/:title
+excerpt_separator: "<!--more-->"
+
+include: ['_images', '_css']
+exclude: ['develop']
+
+dateformat: "%Y-%m-%d"
+
+future: true
+collections:
+    events:
+        output: true
+    lectures:
+        output: true
+    assignments:
+        output: true
+    announcements:
+        output: false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: "assignments"
+    values:
+      layout: "assignment"
