@@ -148,11 +148,13 @@ a.tosu { color: #b00000; background: #f5f5f5; text-decoration: none; padding: 2p
 
 .no-p-margin p { margin-bottom: 0; }
 
-.profile-pic-gallary { padding: 0px; display: inline; }
+.profile-pic-gallary { padding: 0px; display: flex; align-items: flex-start; padding-top: 20px; padding-bottom: 20px; width: 100%; flex-wrap: wrap; }
 
-.image--cover-container { width: 90px; float: left; text-align: center; margin: 0px; margin-right: 40px; }
+.image--cover-container { flex: 1; width: 120px; float: center; text-align: center; margin: 0px; }
 
-.image--cover { width: 80px; height: 80px; border-radius: 50%; margin-bottom: 10px; object-fit: cover; object-position: center right; }
+.image--cover-container-right { flex: 2; float: center; text-align: left; margin: 0px; color: #888888; word-wrap: break-word; overflow-wrap: break-word; white-space: normal; }
+
+.image--cover { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; object-position: center right; }
 
 .announcement-box { padding: 15px; margin-bottom: 20px; border: 1px solid transparent; border-radius: 4px; background-color: #fcf8e3; border-color: #faebcc; }
 

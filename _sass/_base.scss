@@ -400,22 +400,42 @@ a.tosu {
 
 .profile-pic-gallary {
     padding: 0px;
-    display: inline;
+    display: flex;
+    align-items: flex-start;
+    // border: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    // margin: 20px;
+    flex-wrap: wrap;
 }
 
 .image--cover-container {
-    width: 90px;
-    float: left;
+    flex: 1;
+    width: 120px;
+    float: center;
     text-align: center;
     margin: 0px;
-    margin-right: 40px;
+    // margin-right: 10px;
+}
+
+.image--cover-container-right {
+    flex: 2;
+    float: center;
+    text-align: left;
+    margin: 0px;
+    // margin-right: 40px;
+    color: #888888;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 .image--cover {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
 
     object-fit: cover;
     object-position: center right;

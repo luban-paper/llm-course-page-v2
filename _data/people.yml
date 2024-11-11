@@ -1,19 +1,11 @@
 instructors:
-  - name: Albus Dumbledore
+  - name: 陈云霁
     profile_pic: /_images/pp/dumbledore.jpg
     webpage: https://en.wikipedia.org/wiki/Albus_Dumbledore
-  - name: Minerva McGonagall
+    title: 处理器芯片全国重点实验室 主任
+    desc: 他带领团队研制了国际上首个深度学习处理器芯片“寒武纪1号”，相关成果两获计算机体系结构顶级国际会议最佳论文奖，并已应用在上亿台智能手机和服务器中。他的学术论文受五大洲、三十个国家、数百个知名机构广泛跟踪引用。因此，他被Science杂志刊文评价为深度学习处理器的“先驱”和“引领者”，并获我国处理器芯片领域历史上唯一的国家自然科学二等奖(第一完成人)。他还曾获国家杰出青年科学基金、全国五一劳动奖章、中国青年五四奖章、全国创新争先奖、何梁何利科技创新奖、教育部“青年长江学者”，并被MIT技术评论评为全球35位杰出青年创新者(2015年度)。
+  - name: 张蕊
     profile_pic: /_images/pp/mcgonagall.jpg
-
-teaching_assistants:
-  - name: Harry Potter
-    profile_pic: /_images/pp/potter.jpg
-    webpage: https://en.wikipedia.org/wiki/Harry_Potter_(character)
-
-  - name: Hermione Granger
-    profile_pic: /_images/pp/granger.jpg
-    webpage: https://en.wikipedia.org/wiki/Hermione_Granger
-
-  - name: Ron Weasley
-    profile_pic: /_images/pp/weasley.jpg
-    webpage: https://en.wikipedia.org/wiki/Ron_Weasley
+    title: 中国科学院计算技术研究所 副研究员
+    desc: 研究方向为深度学习和处理器设计智能化，长期从事人工智能算法和软硬件协同相关的研究工作。先后在人工智能相关领域的国际顶级期刊和会议上发表高水平论文40余篇：多次荣获中科院计算所优秀科研人员称号。
+    

@@ -25,29 +25,29 @@ layout: default
 
     <br>
     <div>
-        <div style="width:35%; float: left">
+        <div style="width:100%; float: left">
             <!-- <h2>Instructors</h2> -->
             <!-- <div class="image--cover-container">
                 <img src="{{site.data.people.instructor.profile_pic | prepend: site.baseurl }}" class="image--cover">
                 <p>{{site.data.people.instructor.name}}</p>
             </div> -->
-
-            <div class="profile-pic-gallary ">
-                <h2>Instructors</h2>
-                {% for ins in site.data.people.instructors %}
-                <div class="image--cover-container">
-                    <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                    {% if ins.webpage %}
-                    <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
-                    {% else %}
-                    <p>{{ins.name}}</p>
-                    {% endif %}
+            <h2>主讲人介绍</h2>
+            {% for ins in site.data.people.instructors %}
+                <div class="profile-pic-gallary ">
+                    <div class="image--cover-container">
+                        <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
+                        {% if ins.webpage %}
+                        <p><a href="{{ ins.webpage }}">{{ins.name}}</a> <br/> {{ins.title}}</p>
+                        {% else %}
+                        <p>{{ins.name}} <br/> {{ins.title}}</p>
+                        {% endif %}
+                    </div>
+                    <p class="image--cover-container-right">{{ins.desc}}</p>
                 </div>
-                {% endfor %}
-            </div>
+            {% endfor %}
         </div>
 
-        <div style="width:65%; float: left">
+        <!-- <div style="width:65%; float: left">
             <div class="profile-pic-gallary ">
                 <h2>Teaching Assistants</h2>
                 {% for ta in site.data.people.teaching_assistants %}
@@ -61,6 +61,6 @@ layout: default
                 </div>
                 {% endfor %}
             </div>
-        </div>
+        </div> -->
     </div>
 </div>
