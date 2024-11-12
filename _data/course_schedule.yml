@@ -1,0 +1,19 @@
+schedule:
+  - index: 0
+    time: xx
+    course: 
+      - name: xx
+        instructor: xx
+        material: xx
+      - name: xx
+        instructor: xx
+        material: xxx
+  - index: 1
+    time: xx
+    course: 
+      - name: xx
+        instructor: xx
+        material: xx
+      - name: xx
+        instructor: xx
+        material: xx
